@@ -13,7 +13,9 @@ func main() {
 
 	switch taskList_section_6 {
 	case 1:
-		problem.Hello()
+		problem.CompareString()
+	case 2:
+		problem.CaesarChiper()
 
 	default:
 		problem.Hello()
