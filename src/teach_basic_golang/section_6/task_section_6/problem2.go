@@ -21,7 +21,7 @@ func shiftString(offset int, str string) string {
 			shifted += string(shiftLetter(int(char), offset))
 		}
 	}
-	// Mengembalikan nilai shifted sebagai string baru yang sudah mengalami pergeseran huruf.
+
 	return shifted
 }
 
