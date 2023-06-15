@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	problem "section_7/task_section_7"
+	problem "section_7/task_section_7_TimeComplexity"
 )
 
 func main() {
@@ -13,9 +13,11 @@ func main() {
 
 	switch taskList_section_7 {
 	case 1:
-		problem.Hello()
+		problem.BilanganPrima()
+	case 2:
+		problem.FastExponation()
 
 	default:
-		problem.Hello()
+		problem.BilanganPrima()
 	}
 }
